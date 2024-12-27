@@ -7,13 +7,13 @@
 \section{Latar Belakang}
 %-----------------------------------------------------------------------------%
 
-Di era digital yang semakin maju, ancaman siber menjadi salah satu tantangan terbesar dalam menjaga keamanan informasi. Serangan siber tidak hanya menargetkan individu, tetapi juga perusahaan, institusi pemerintah, dan infrastruktur kritis. Berbagai teknik dan alat telah dikembangkan oleh peretas untuk mengeksploitasi kerentanan sistem, termasuk penggunaan Command and Control (C2) frameworks yang memungkinkan kendali jarak jauh terhadap perangkat yang terinfeksi.
+Di era digital yang semakin maju, ancaman siber menjadi salah satu tantangan terbesar dalam menjaga keamanan informasi\citep{gade2016cyberattacks}. Serangan siber tidak hanya menargetkan individu, tetapi juga perusahaan, institusi pemerintah, dan infrastruktur kritis. Berbagai teknik dan alat telah dikembangkan oleh peretas untuk mengeksploitasi kerentanan sistem, termasuk penggunaan Command and Control (C2) frameworks yang memungkinkan kendali jarak jauh terhadap perangkat yang terinfeksi.
 
-Command and Control (C2) adalah bagian penting dari ekosistem serangan siber, di mana peretas dapat mengirimkan perintah, menerima data, atau memodifikasi perilaku perangkat yang disusupi. Framework berbasis PowerShell telah menjadi populer di kalangan peretas karena sifatnya yang fleksibel, mudah disembunyikan, dan banyaknya dukungan bawaan dari sistem operasi Windows. Namun, kerentanan ini juga dapat dimanfaatkan untuk meningkatkan pemahaman dan pengembangan sistem keamanan melalui simulasi serangan.
+Command and Control (C2) adalah bagian penting dari ekosistem serangan siber, di mana peretas dapat mengirimkan perintah, menerima data, atau memodifikasi perilaku perangkat yang disusupi\citep{hutchins2011killchain}. Framework berbasis PowerShell telah menjadi populer di kalangan peretas karena sifatnya yang fleksibel, mudah disembunyikan, dan banyaknya dukungan bawaan dari sistem operasi Windows\citep{powershell_c2}. Namun, kerentanan ini juga dapat dimanfaatkan untuk meningkatkan pemahaman dan pengembangan sistem keamanan melalui simulasi serangan.
 
-Salah satu teknik pendukung yang semakin sering digunakan dalam serangan siber adalah keystroke injection. Teknik ini memanfaatkan perangkat kecil seperti Digispark, yang dapat diprogram untuk mensimulasikan input keyboard secara otomatis ke perangkat target. Dengan teknik ini, peretas dapat menanamkan perintah langsung ke perangkat korban tanpa memerlukan akses fisik yang lama, sehingga meningkatkan efektivitas serangan.
+Salah satu teknik pendukung yang semakin sering digunakan dalam serangan siber adalah keystroke injection\citep{usb_attack_digispark}. Teknik ini memanfaatkan perangkat kecil seperti Digispark, yang dapat diprogram untuk mensimulasikan input keyboard secara otomatis ke perangkat target. Dengan teknik ini, peretas dapat menanamkan perintah langsung ke perangkat korban tanpa memerlukan akses fisik yang lama, sehingga meningkatkan efektivitas serangan.
 
-Berdasarkan latar belakang tersebut, penelitian ini bertujuan untuk mengembangkan framework Command and Control berbasis PowerShell dengan integrasi teknik keystroke injection menggunakan Digispark. Framework ini akan digunakan untuk simulasi serangan siber, yang diharapkan dapat memberikan kontribusi bagi peningkatan kesadaran, deteksi, dan mitigasi ancaman siber di masa depan.
+Berdasarkan latar belakang tersebut, penelitian ini bertujuan untuk mengembangkan framework Command and Control berbasis PowerShell dengan integrasi teknik keystroke injection menggunakan Digispark. Framework ini akan digunakan untuk simulasi serangan siber, yang diharapkan dapat memberikan kontribusi bagi peningkatan kesadaran, deteksi, dan mitigasi ancaman siber di masa depan\citep{nist_framework}.
 
 
 %-----------------------------------------------------------------------------%
@@ -26,23 +26,6 @@ yang \saya~hadapi:
     \item Bagaimana mengintegrasikan teknik keystroke injection menggunakan Digispark ke dalam framework C2?
     \item Seberapa efektif framework yang dikembangkan dalam mensimulasikan serangan siber untuk menguji ketahanan sistem keamanan?
 \end{enumerate}
-
-
-
-
-
-%-----------------------------------------------------------------------------%
-\subsection{Definisi Permasalahan}
-%-----------------------------------------------------------------------------%
-\todo{Tuliskan permasalahan yang ingin diselesaikan. Bisa juga
-	berbentuk pertanyaan}
-
-
-%-----------------------------------------------------------------------------%
-\subsection{Batasan Permasalahan}
-%-----------------------------------------------------------------------------%
-\todo{Umumnya ada asumsi atau batasan yang digunakan untuk 
-	menjawab pertanyaan-pertanyaan penelitian diatas.}
 
 
 %-----------------------------------------------------------------------------%
